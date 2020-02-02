@@ -1,6 +1,19 @@
-*{
+* {
+    font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+
 
 @font-face{
     font-family: 'Pixel';
@@ -62,4 +75,25 @@
     right: 10px;
     font-family: 'Pixel';
     font-size: 71px;
+    z-index: 100;
+}
+
+.fim {
+    background-color: rgba(250, 250, 250, .5);
+    z-index: 150;
+    height: 700px;
+    width: 1200px;
+    color:#f00;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fim span{
+    z-index: 150;
+}
+.fim button{
+    font-size: 1em;
+    z-index: 150;
 }

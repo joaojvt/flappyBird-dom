@@ -3,20 +3,6 @@
     src: url('../fonts/Oswald-Regular.ttf') format('truetype');
 }
 
-* {
-    font-family: 'Oswald', sans-serif;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    background-color: #0D262D;
-    color: #fff;
-    height: 100%;
-}
 
 .conteudo {
     display: flex;
